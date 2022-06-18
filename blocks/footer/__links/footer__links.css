@@ -1,0 +1,16 @@
+.footer__links {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+}
+
+@media screen and (max-width: 568px) {
+    .footer__links {
+        font-size: 24px;
+        line-height: 100%;
+        display: grid;
+        grid-template-columns: 1fs;
+        row-gap: 32px;
+        ;
+    }
+}

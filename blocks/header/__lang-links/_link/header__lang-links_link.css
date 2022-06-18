@@ -1,0 +1,7 @@
+.header__lang-links_link:hover{
+    text-decoration: underline;
+}
+
+.header__lang-links_link:last-child{
+    -left: 18px;
+}
