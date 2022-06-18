@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1140px) {
     .places__place {
-        margin-bottom: 80px; 
+        margin-bottom: 80px;
          grid-column-gap: 32px;
     }
 }
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 568px) {
     .places__place {
-        grid-template-columns: auto; 
+        grid-template-columns: auto;
         margin-bottom: 50px;
         grid-row-gap: 32px;
         }
