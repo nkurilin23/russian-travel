@@ -4,7 +4,7 @@
     align-items: flex-end;
     justify-content: space-between;
     margin: 0 48px 0;
-    min-width: 1184px;
+    max-width: 1184px;
 }
 
 @media screen and (max-width: 568px) {
