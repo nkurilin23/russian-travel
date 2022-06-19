@@ -5,19 +5,13 @@
     justify-content: space-between;
     margin: 0 48px 0;
     color: white;
-    min-width: 1184px;
+    max-width: 100%;
 }
 
-@media screen and (max-width: 1140px) {
-    .footer {
-        min-width: 928px;
-    }
-}
 
 @media screen and (max-width: 984px) {
     .footer {
         margin: 0 24px 0;
-        min-width: 720px;
     }
 }
 
@@ -26,7 +20,7 @@
         margin: 0 16px 0;
         align-items: flex-start;
         flex-direction: column;
-        min-width: 186px;
+        max-width: 186px;
 
     }
 }

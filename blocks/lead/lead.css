@@ -2,15 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 148px 0;
-  position: relative;
-  padding-bottom: 14px;
+  margin: 0 auto 0;
   min-width: 984px;
+}
+
+.lead:last-child{
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 1140px) {
   .lead {
-    margin: 0 48px 0;
+    margin: 0 auto 0;
     min-width: 928px;
   }
 }
@@ -18,7 +20,7 @@
 @media screen and (max-width: 984px) {
   .lead {
     margin: 0;
-    min-width: 768px;
+    min-width: 568px;
   }
 }
 

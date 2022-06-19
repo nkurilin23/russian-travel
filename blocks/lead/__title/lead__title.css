@@ -5,6 +5,18 @@
     max-width: 720px;
     text-align: center;
     margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+    .lead__title {
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 107%;
+        max-width: 500px;
+        text-align: center;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 568px) {

@@ -1,8 +1,7 @@
-.places__website-URL{
-font-weight: 400;
-font-size: 18px;
-line-height: 122%;
-text-decoration-line: underline;
-color: white;
+.places__website-url {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+    color: white;
 }
-
