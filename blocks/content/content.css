@@ -11,3 +11,16 @@
         margin-top: 48px;
     }
 }
+
+
+@media screen and (max-width: 984px) {
+    .content {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .content {
+        margin-bottom: 64px;
+    }
+}

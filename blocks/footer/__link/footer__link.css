@@ -2,11 +2,11 @@
     margin-left: 18px;
     color: white;
     text-decoration: none;
-
+    transition: opacity 0.3s linear 0s;
 }
 
 .footer__link:hover{
-    text-decoration: underline;
+    opacity: 0.8;
 }
 
 .footer__link:first-child{

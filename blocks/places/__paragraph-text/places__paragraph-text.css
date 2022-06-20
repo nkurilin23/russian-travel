@@ -1,0 +1,26 @@
+.places__paragraph-text {
+  margin-top: 26px;
+
+}
+
+.places__paragraph-text:first-child {
+  margin: 0;
+}
+
+.places__paragraph-text:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .places__paragraph-text {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places__paragraph-text {
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

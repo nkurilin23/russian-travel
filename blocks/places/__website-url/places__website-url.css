@@ -4,4 +4,9 @@
     line-height: 122%;
     text-decoration-line: underline;
     color: white;
+    transition: opacity 0.3s linear 0s;
+}
+
+.places__website-url:hover {
+    opacity: 0.8;
 }
